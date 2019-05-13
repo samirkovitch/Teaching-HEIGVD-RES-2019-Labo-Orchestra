@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9421d7b-17ca-4695-993f-5d3e6ef936e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Auditor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Musician/.idea/Musician.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Musician/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Musician/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Musician/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Musician/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Musician/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Musician/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docker/image-auditor/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker/image-auditor/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docker/image-musician/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker/image-musician/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docker/image-validation/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker/image-validation/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docker/image-validation/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker/image-validation/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docker/image-validation/src/docker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker/image-validation/src/docker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docker/image-validation/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker/image-validation/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docker/image-musician/src/musician.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker/image-musician/src/musician.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/auditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/auditor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Musician/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Musician/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Musician/src/musician.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Musician/src/musician.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../validate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../validate.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +30,8 @@
               <entry file="file://$PROJECT_DIR$/../../README.md">
                 <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                   <state split_layout="SPLIT">
-                    <first_editor relative-caret-position="392">
-                      <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+                    <first_editor relative-caret-position="494">
+                      <caret line="187" column="65" selection-start-line="187" selection-start-column="65" selection-end-line="187" selection-end-column="65" />
                     </first_editor>
                     <second_editor />
                   </state>
@@ -62,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/auditor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="580">
+              <caret line="55" column="33" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -96,8 +82,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/package.json" />
         <option value="$PROJECT_DIR$/src/protocol.js" />
-        <option value="$PROJECT_DIR$/../../README.md" />
         <option value="$PROJECT_DIR$/src/auditor.js" />
+        <option value="$PROJECT_DIR$/../../README.md" />
       </list>
     </option>
   </component>
@@ -187,12 +173,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557595427395</updated>
-      <workItem from="1557595431477" duration="11696000" />
+      <workItem from="1557595431477" duration="16935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11696000" />
+    <option name="totallyTimeSpent" value="16935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -203,7 +189,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24945295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -246,20 +232,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="392">
-            <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/auditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/auditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+    <entry file="file://$PROJECT_DIR$/../../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="494">
+            <caret line="187" column="65" selection-start-line="187" selection-start-column="65" selection-end-line="187" selection-end-column="65" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

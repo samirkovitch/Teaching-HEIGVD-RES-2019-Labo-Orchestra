@@ -105,15 +105,15 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 | #  | Topic |
 | --- | --- |
 |Question | How can we represent the system in an **architecture diagram**, which gives information both about the Docker containers, the communication protocols and the commands? |
-| | *Insert your diagram here...* |
+| | *L'auditor qui fait tourner un serveur TCP et qui écoute avec UDP en multicast* |
 |Question | Who is going to **send UDP datagrams** and **when**? |
 | | *Chaque musicien envoie le son qu'il fait chaque seconde* |
 |Question | Who is going to **listen for UDP datagrams** and what should happen when a datagram is received? |
 | | *L'auditor reçoit le soud des musiciens. Il met à jour une liste des musiciens actifs* |
 |Question | What **payload** should we put in the UDP datagrams? |
-| | *Enter your response here...* |
+| | *un uuid et un son* |
 |Question | What **data structures** do we need in the UDP sender and receiver? When will we update these data structures? When will we query these data structures? |
-| | *Enter your response here...* |
+| | *JSON, avant l'envoi* |
 
 
 ## Task 2: implement a "musician" Node.js application
@@ -183,11 +183,11 @@ When you connect to the TCP interface of the **Auditor**, you should receive an 
 |Question | How can we use the `Map` built-in object introduced in ECMAScript 6 to implement a **dictionary**?  |
 | | *var map = new Map(); et on la remplit avec les messages qui arrivent par le multicast* |
 |Question | How can we use the `Moment.js` npm module to help us with **date manipulations** and formatting?  |
-| | *Enter your response here...* |
+| | *moment().format()* |
 |Question | When and how do we **get rid of inactive players**?  |
-| | *Enter your response here...* |
+| | *On check chaque seconde si chaque musicien est tojours actif* |
 |Question | How do I implement a **simple TCP server** in Node.js?  |
-| | *Enter your response here...* |
+| | *avec require('net')* |
 
 
 ## Task 5: package the "auditor" app in a Docker image

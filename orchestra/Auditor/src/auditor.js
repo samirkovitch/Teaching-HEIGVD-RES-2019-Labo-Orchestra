@@ -61,7 +61,6 @@ function checkMusicianStillActive() {
         if(comparaison > 5) {
             mapMusician.delete(key);
         }
-
     });
 }
 

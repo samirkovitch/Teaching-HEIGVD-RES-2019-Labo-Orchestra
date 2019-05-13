@@ -27,7 +27,7 @@ setInterval(sendMessage, 1000);
 
 var json = {
     uuid: uuidv4(),
-    instrument: process.argv[2]
+    instrument: instrument
 };
 
 // envoie le message en "broadcast"
